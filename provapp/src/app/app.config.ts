@@ -3,7 +3,8 @@ import { provideRouter } from '@angular/router';
 import { provideHttpClient } from '@angular/common/http';
 import Keycloak from 'keycloak-js';
 import { routes } from './app.routes';
-import { environment } from '../environments/environment';
+import { environment } from './enviroments/environment';
+
 //crea l'istanza di Keycloak
 export const keycloak = new Keycloak({
 url: environment.keycloak.url,
