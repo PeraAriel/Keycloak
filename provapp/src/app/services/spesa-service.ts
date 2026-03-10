@@ -9,7 +9,7 @@ export class SpesaService {
 private http = inject(HttpClient);
 private keycloak = inject(Keycloak);
 //ricordate di aprire la porta del server
-private baseUrl = 'URL DI FLASK'
+private baseUrl = 'https://congenial-space-garbanzo-69vg99w9gxwqh4469-5000.app.github.dev'
 //ci serve per allegare il token ad ogni
 //richiesta http
 private getHeaders(): HttpHeaders {
