@@ -1,6 +1,6 @@
 import { Component, OnInit, inject, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { SpesaService } from '../../services/spesa-service';
+import { SpesaService } from '../services/spesa-service';
 @Component({
 selector: 'app-lista-spesa',
 imports: [FormsModule],
